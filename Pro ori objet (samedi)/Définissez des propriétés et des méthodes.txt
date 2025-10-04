@@ -1,0 +1,67 @@
+1. Définissez des propriétés et des méthodes pour les classes suivantes:
+
+
+
+
+Personne => propriétés (genre,age,taille,poids)             méthodes(boire,manger,travailler)
+
+Etudiant => propriétés (nom,cours,taille,genre,domaine)    méthodes(boire,manger,étudier)
+
+Animal => propriétés (couleur,race,famille)                   méthodes(nourrir,survivre,manger)
+
+Produit => propriétés (origine,fabricant,volume,prix)       méthodes(fabriquer,collecter,vendre)
+
+Compte bancaire => propriétés (nom,type,détail)                 méthodes(épargner,virer,échanger)
+
+
+2. Créez des objets pour ces classes
+
+p1=Personne("Arthur",37,175,67)
+p2=Personne("Jacqueline",25,162,54)
+
+e1=Etudiant("Jacques","math",168,"Masculin","Informatique")
+
+a1=Chien("brun","boxer","canidé")
+
+pro1=Lait("belge","Lactel","Litre","euros")
+
+cb1=("Céline","Mastercard","Date d'expiration")
+
+
+3. Appelez les méthodes des objets
+
+class Personne: 
+    def__init__(genre,age,taille,poids):
+        self.age=age
+        self.genre=genre
+        self.taille=taille
+        self.poids=poids
+
+class Etudiant:
+    def__init__(genre,age,taille,poids):
+        self.age=age
+        self.genre=genre
+        self.taille=taille
+        self.poids=poids
+
+class Animal:
+    def__init__(couleur,regne,taille,poids):
+        self.couleur=couleur
+        self.regne=regne
+        self.taille=taille
+        self.poids=poids
+
+class Produit:
+    def__init__(origine,fabricant,volume,prix):
+        self.origine=origine
+        self.fabricant=fabricant
+        self.volume=volume
+        self.prix=prix
+
+class Compte bancaire =>
+
+
+
+4. Quelle est la différence entre une classe et un objet?
+
+Un objet , c'est une instance concrète de la classe, créee à partir de ce modèle.
